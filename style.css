@@ -1,0 +1,174 @@
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left:-10px ;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.link2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+    
+
+.input1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.gender{
+    display: inline;
+}
+.fn{
+    display: inline-block;
+    justify-content: left; 
+    text-align:left;
+    margin-left:500px;
+    margin-right: 150px;
+   
+    
+}
+p input{
+    margin-left: 100px ;
+    justify-content: center;
+    text-align: left;
+}
+.fa-solid {
+   color: #4ABC96;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    display: flex;
+    /* justify-content: center;
+    text-align: center; */
+}
+.inp{
+   margin-left: 30px;
+}
+.pass{
+      margin-left: 12px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+p textarea{
+     margin-left: 100px ;
+    justify-content:center;
+    text-align: left;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p input{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid {
+   color: #4ABC96;
+}
+.center{
+    /* display:inline-block; */
+    justify-content: center;
+    align-items: center;
+     margin-left: 880px;
+     position: fixed;
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    margin-right: 800px;
+    margin-left: 100px;
+    position: fixed;
+}
+.dob{
+    margin-right: 20px;
+    
+}
+
+
+.para{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.Login1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+.one input{
+    margin-left:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.id input{
+margin-left: 120px;
+}
+.mpn input{
+   margin-left: 60px;
+}
+.db input{
+    margin-left: 72px;
+}
+.add textarea{
+    margin-left: 120px;
+}
+.city input{
+    margin-left: 150px;
+}
+.pincode input{
+    margin-left: 110px;
+}
+.state input{
+    margin-left: 135px;
+}
+#ch input{
+    margin-right:150px ;
+}
+#inp{
+    margin-right: 150px;
+}
+.male input{
+    margin-left: 125px;
+}
+.fa-solid fa-circle-left{
+   display: ;
+}
