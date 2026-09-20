@@ -1,174 +1,179 @@
-.header{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+header {
+    padding: 50px 100px;
+    font-family: "Sora", sans-serif;
+
 }
-.link{
+
+ol {
+    list-style: none;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left:-10px ;
+    justify-content: space-between;
+    align-items: center;
 }
-.main-container{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-}
-.link2{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-}
-h1{
-    display: flex;
-    justify-content: center;
+
+.one {
+    background-color: #B9FF66;
+    column-height: 75px;
+    height: 65px;
+    width: 225px;
+    border-radius: 20px;
     text-align: center;
 }
 
-    
-
-.input1{
-    display: flex;
-    justify-content: space-evenly;
+#two {
+    background-color: #B9FF66;
+    height: 65px;
+    width: 200px;
+    border-radius: 10px;
     text-align: center;
 }
-.gender{
-    display: inline;
+
+.three {
+    background-color: #B9FF66;
+    height: 65px;
+    width: 225px;
+    border-radius: 20px;
+    text-align: center;
 }
-.fn{
-    display: inline-block;
-    justify-content: left; 
-    text-align:left;
-    margin-left:500px;
-    margin-right: 150px;
-   
-    
-}
-p input{
-    margin-left: 100px ;
-    justify-content: center;
+
+#desk  {
+    background-color: #F3F3F3;
+    height: px;
     text-align: left;
+
 }
-.fa-solid {
-   color: #4ABC96;
-}
-.log{
+
+#first {
     display: flex;
-    justify-content: center;
+    color: #B9FF66;
+    width: 60px;
+
+
+}
+
+.main-container {
+    display: inline-flex;
+
+}
+
+
+.sec-container {
+    display: inline-flex;
+    background-color: none;
+}
+
+.third-container {
+    display: inline-flex;
+    background-color: none;
+}
+
+.fourth-container {
+    display: inline-flex;
+    background-color: none;
+}
+
+.fifth-container {
+    display: inline-flex;
+    background-color: none;
+}
+
+.color-container {
+    width: 100ppx;
+    height: 120px;
     text-align: center;
+    color: #191A23;
+    background-color: #B9FF66;
+    padding: 40px 31px;
 }
-h1{
-     display: flex;
-    justify-content: center;
+
+.font-container {
+    width: 100ppx;
+    height: 120px;
     text-align: center;
+    color: #F3F3F3;
+    background-color: #191A23;
+    padding: 40px 31px;
+    font-weight: 400px;
 }
-p{
-    display: flex;
-    /* justify-content: center;
-    text-align: center; */
-}
-.inp{
-   margin-left: 30px;
-}
-.pass{
-      margin-left: 12px;
-}
-.btn{
-    display: flex;
-    justify-content: center;
+
+.three-container {
+    background-color: #F3F3F3;
+    color: #191A23;
+    width: 100ppx;
+    height: 120px;
     text-align: center;
-    gap: 5px;
+    padding: 40px 31px;
+    font-weight: 400px;
 }
-p textarea{
-     margin-left: 100px ;
-    justify-content:center;
-    text-align: left;
-}
-.logo{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-p input{
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-}
-.fa-solid {
-   color: #4ABC96;
-}
-.center{
-    /* display:inline-block; */
-    justify-content: center;
-    align-items: center;
-     margin-left: 880px;
-     position: fixed;
-}
-.btn{
-    justify-content: center;
-    align-items: center;
-    margin-right: 800px;
-    margin-left: 100px;
-    position: fixed;
-}
-.dob{
-    margin-right: 20px;
+
+.btn {
+
+    color: #F3F3F3;
+    width: 377x;
+    height: 407px;
+    border-radius: 14px;
+    text-shadow: none;
+    
     
 }
 
+.first-butn {
+    background-color: #191A23;
+    color: #F3F3F3;
+    width: 300px;
+    height: 68px;
+    border-radius: 15px;
+    cursor: pointer;
 
-.para{
-    display: inline;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
 }
-.Login1{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 5px;
-}
-.one input{
-    margin-left:5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-   
+.sec-butn {
+    background-color: #191A23;
+    color: #F3F3F3;
+    width: 320px;
+    height: 68px;
+    border-radius: 15px;
+    cursor: pointer;
+
 }
-.id input{
-margin-left: 120px;
+
+.sec-bar {
+
+    display: block;
 }
-.mpn input{
-   margin-left: 60px;
+
+.block {
+    display: block;
+    justify-content: center;
 }
-.db input{
-    margin-left: 72px;
+
+.mp {
+    background-color: #F3F3F3;
+    margin-left: 10px;
+    border-radius: 10px;
+
 }
-.add textarea{
-    margin-left: 120px;
+
+.typ {
+    background-color: #B9FF66;
+    border-radius: 15px;
+    height: 65px;
+    width: 250px;
+    border-radius: 20px;
+
 }
-.city input{
-    margin-left: 150px;
+
+.last-butn {
+    display: block;
+    
 }
-.pincode input{
-    margin-left: 110px;
-}
-.state input{
-    margin-left: 135px;
-}
-#ch input{
-    margin-right:150px ;
-}
-#inp{
-    margin-right: 150px;
-}
-.male input{
-    margin-left: 125px;
-}
-.fa-solid fa-circle-left{
-   display: ;
+#btn{
+    color: #F3F3F3;
+    background-color: #191A23;
+    width: 285px;
+    height: 68px;
+    border-radius: 15px;
+    cursor: pointer;
 }
